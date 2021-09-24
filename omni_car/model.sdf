@@ -1,17 +1,9 @@
 <?xml version='1.0'?>
-<<<<<<< HEAD
 <sdf version='1.6'>
   <model name='omni_car'>
     <link name='dummy'>
       <inertial>
         <pose frame=''>0.000456 0 0.000638 0 -0 0</pose>
-=======
-<sdf version='1.7'>
-  <model name='omni_car'>
-    <link name='dummy'>
-      <inertial>
-        <pose>0.000456 0 0.000638 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>8.2301</mass>
         <inertia>
           <ixx>0.0209684</ixx>
@@ -60,11 +52,7 @@
           <distortionT2>0.0</distortionT2>
           <robotNamespace>/</robotNamespace>
         </plugin>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.175 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.175 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
       </sensor>
       <velocity_decay/>
       <sensor name='head_hokuyo_sensor' type='ray'>
@@ -100,11 +88,7 @@
           <frameName>laser_frame</frameName>
           <robotNamespace>/</robotNamespace>
         </plugin>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.225 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.225 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
       </sensor>
       <gravity>1</gravity>
       <velocity_decay/>
@@ -124,25 +108,15 @@
           <frameName>imu_link</frameName>
           <robotNamespace>/</robotNamespace>
         </plugin>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.125 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.125 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <imu/>
       </sensor>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
-<<<<<<< HEAD
       <pose frame=''>0 0 0 0 -0 0</pose>
       <visual name='dummy_fixed_joint_lump__base_footprint_visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-      <pose>0 0 0 0 -0 0</pose>
-      <visual name='dummy_fixed_joint_lump__base_footprint_visual'>
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <box>
             <size>0.001 0.001 0.001</size>
@@ -159,11 +133,7 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <visual name='dummy_fixed_joint_lump__base_link_visual_1'>
-<<<<<<< HEAD
         <pose frame=''>0 0 0.05 0 -0 1.5708</pose>
-=======
-        <pose>0 0 0.05 0 -0 1.5708</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <box>
             <size>0.2 0.3 0.1</size>
@@ -180,11 +150,7 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <visual name='dummy_fixed_joint_lump__camera_link_visual_2'>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.175 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.175 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <box>
             <size>0.05 0.05 0.05</size>
@@ -201,11 +167,7 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <visual name='dummy_fixed_joint_lump__laser_frame_visual_3'>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.225 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.225 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -219,11 +181,7 @@
         <cast_shadows>1</cast_shadows>
       </visual>
       <visual name='dummy_fixed_joint_lump__imu_link_visual_4'>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.125 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.125 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <box>
             <size>0.05 0.05 0.05</size>
@@ -242,11 +200,7 @@
       <collision name='dummy_fixed_joint_lump__base_link_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <box>
             <size>0.2 0.3 0.1</size>
@@ -301,11 +255,7 @@
       <collision name='dummy_fixed_joint_lump__camera_link_collision_1'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.175 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.175 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <box>
             <size>0.05 0.05 0.05</size>
@@ -360,11 +310,7 @@
       <collision name='dummy_fixed_joint_lump__imu_link_collision_3'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.125 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.125 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <box>
             <size>0.05 0.05 0.05</size>
@@ -419,11 +365,7 @@
       <collision name='dummy_fixed_joint_lump__laser_frame_collision_2'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
         <pose frame=''>0.125 0 0.225 0 -0 0</pose>
-=======
-        <pose>0.125 0 0.225 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <box>
             <size>0.05 0.05 0.05</size>
@@ -477,15 +419,9 @@
       </collision>
     </link>
     <link name='wheel_1'>
-<<<<<<< HEAD
-      <pose frame=''>0.099999 0.13 0 -1.5708 -0 -0</pose>
+      <pose frame=''>0.099999 0.13 -0 -1.5708 0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-      <pose>0.1 0.13 -0 -1.5708 0 0</pose>
-      <inertial>
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>0.5</mass>
         <inertia>
           <ixx>0.01</ixx>
@@ -502,11 +438,7 @@
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='wheel_1_visual'>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <length>0.05</length>
@@ -526,11 +458,7 @@
       <collision name='wheel_1_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <radius>0.06</radius>
@@ -585,15 +513,9 @@
       </collision>
     </link>
     <link name='wheel_2'>
-<<<<<<< HEAD
-      <pose frame=''>-0.1 0.13 -0 -1.5708 -0 -0</pose>
+      <pose frame=''>-0.1 0.13 -0 -1.5708 0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-      <pose>-0.1 0.13 -0 -1.5708 0 0</pose>
-      <inertial>
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>0.5</mass>
         <inertia>
           <ixx>0.01</ixx>
@@ -610,11 +532,7 @@
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='wheel_2_visual'>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <length>0.05</length>
@@ -634,11 +552,7 @@
       <collision name='wheel_2_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <radius>0.06</radius>
@@ -693,15 +607,9 @@
       </collision>
     </link>
     <link name='wheel_3'>
-<<<<<<< HEAD
-      <pose frame=''>0.1 -0.13 0 -1.5708 -0 -0</pose>
+      <pose frame=''>0.1 -0.13 0 -1.5708 0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-      <pose>0.1 -0.13 0 -1.5708 0 0</pose>
-      <inertial>
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>0.5</mass>
         <inertia>
           <ixx>0.01</ixx>
@@ -718,11 +626,7 @@
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='wheel_3_visual'>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <length>0.05</length>
@@ -742,11 +646,7 @@
       <collision name='wheel_3_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <radius>0.06</radius>
@@ -801,15 +701,9 @@
       </collision>
     </link>
     <link name='wheel_4'>
-<<<<<<< HEAD
-      <pose frame=''>-0.099999 -0.13 -0 -1.5708 -0 -0</pose>
+      <pose frame=''>-0.099999 -0.13 0 -1.5708 0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-      <pose>-0.1 -0.13 0 -1.5708 0 0</pose>
-      <inertial>
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>0.5</mass>
         <inertia>
           <ixx>0.01</ixx>
@@ -826,11 +720,7 @@
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='wheel_4_visual'>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <length>0.05</length>
@@ -850,11 +740,7 @@
       <collision name='wheel_4_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
         <pose frame=''>0 0 0 0 -0 0</pose>
-=======
-        <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <radius>0.06</radius>
@@ -911,16 +797,10 @@
     <joint name='base_to_wheel1' type='revolute'>
       <parent>dummy</parent>
       <child>wheel_1</child>
-<<<<<<< HEAD
       <pose frame=''>0 -0 0 0 -0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
-=======
-      <pose>0 -0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 0 1</xyz>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
@@ -950,16 +830,10 @@
     <joint name='base_to_wheel2' type='revolute'>
       <parent>dummy</parent>
       <child>wheel_2</child>
-<<<<<<< HEAD
       <pose frame=''>0 -0 0 0 -0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
-=======
-      <pose>0 -0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 0 1</xyz>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
@@ -989,16 +863,10 @@
     <joint name='base_to_wheel3' type='revolute'>
       <parent>dummy</parent>
       <child>wheel_3</child>
-<<<<<<< HEAD
       <pose frame=''>0 0 0 0 -0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
-=======
-      <pose>0 0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 0 1</xyz>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
@@ -1028,16 +896,10 @@
     <joint name='base_to_wheel4' type='revolute'>
       <parent>dummy</parent>
       <child>wheel_4</child>
-<<<<<<< HEAD
       <pose frame=''>0 0 0 0 -0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
-=======
-      <pose>0 0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 0 1</xyz>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
@@ -1077,7 +939,7 @@
       <wheelSeparation>0.26</wheelSeparation>
       <wheelDiameter>0.12</wheelDiameter>
       <torque>2</torque>
-      <commandTopic>cmd_vel</commandTopic>
+      <commandTopic>/logger1/cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <robotBaseFrame>dummy</robotBaseFrame>
