@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Prism">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.25 0.05 -0.14434"
+        rpy="0 0 0" />
+      <mass
+        value="10.825" />
+      <inertia
+        ixx="0.12178"
+        ixy="2.3474E-18"
+        ixz="-5.5738E-16"
+        iyy="0.22553"
+        iyz="-5.4753E-18"
+        izz="0.12178" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Prism/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Prism/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
