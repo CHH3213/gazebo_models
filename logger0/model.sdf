@@ -1,18 +1,9 @@
 <?xml version='1.0'?>
-<<<<<<< HEAD
-<sdf version='1.6'>
-  <model name='logger0'>
-    <link name='logger-chassis'>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <inertial>
-        <pose frame=''>0.005952 0 -0.002381 0 -0 0</pose>
-=======
 <sdf version='1.7'>
   <model name='logger0'>
     <link name='logger-chassis'>
       <inertial>
         <pose>0.005952 0 -0.002381 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>2.1</mass>
         <inertia>
           <ixx>0.0332188</ixx>
@@ -23,56 +14,10 @@
           <izz>0.0640521</izz>
         </inertia>
       </inertial>
-      <velocity_decay/>
-      <gravity>1</gravity>
-      <velocity_decay/>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
-<<<<<<< HEAD
-      <visual name='logger-chassis_visual'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <geometry>
-          <cylinder>
-            <length>0.1</length>
-            <radius>0.25</radius>
-          </cylinder>
-        </geometry>
-        <material>
-          <script>
-            <name>Gazebo/Blue</name>
-=======
       <pose>0 0 0 0 -0 0</pose>
-      <visual name='logger-chassis_fixed_joint_lump__logger-caster_visual_1'>
-        <pose>0.125 0 -0.05 0 -0 0</pose>
-        <geometry>
-          <sphere>
-            <radius>0.04</radius>
-          </sphere>
-        </geometry>
-        <material>
-          <script>
-            <name>Gazebo/Grey</name>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
-            <uri>file://media/materials/scripts/gazebo.material</uri>
-          </script>
-          <shader type='pixel'/>
-        </material>
-        <transparency>0</transparency>
-        <cast_shadows>1</cast_shadows>
-      </visual>
-<<<<<<< HEAD
-      <visual name='logger-chassis_fixed_joint_lump__logger-caster_visual_1'>
-        <pose frame=''>0.125 0 -0.05 0 -0 0</pose>
-        <geometry>
-          <sphere>
-            <radius>0.04</radius>
-          </sphere>
-        </geometry>
-        <material>
-          <script>
-            <name>Gazebo/Grey</name>
-=======
       <visual name='logger-chassis_visual'>
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
@@ -84,7 +29,6 @@
         <material>
           <script>
             <name>Gazebo/Blue</name>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
             <uri>file://media/materials/scripts/gazebo.material</uri>
           </script>
           <shader type='pixel'/>
@@ -92,37 +36,38 @@
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
       </visual>
-<<<<<<< HEAD
-      <collision name='logger-chassis_collision'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-        <geometry>
-          <cylinder>
-            <radius>0.25</radius>
-            <length>0.1</length>
-          </cylinder>
-=======
-      <collision name='logger-chassis_fixed_joint_lump__logger-caster_collision_1'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
+      <visual name='logger-chassis_fixed_joint_lump__logger-caster_visual_1'>
         <pose>0.125 0 -0.05 0 -0 0</pose>
         <geometry>
           <sphere>
             <radius>0.04</radius>
           </sphere>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+          <shader type='pixel'/>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+      <collision name='logger-chassis_collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>0.1</length>
+          </cylinder>
         </geometry>
         <surface>
           <friction>
             <ode>
-<<<<<<< HEAD
               <mu>0.5</mu>
               <mu2>0.5</mu2>
-=======
-              <mu>0</mu>
-              <mu2>0</mu2>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -164,37 +109,20 @@
           </contact>
         </surface>
       </collision>
-<<<<<<< HEAD
       <collision name='logger-chassis_fixed_joint_lump__logger-caster_collision_1'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0.125 0 -0.05 0 -0 0</pose>
+        <pose>0.125 0 -0.05 0 -0 0</pose>
         <geometry>
           <sphere>
             <radius>0.04</radius>
           </sphere>
-=======
-      <collision name='logger-chassis_collision'>
-        <laser_retro>0</laser_retro>
-        <max_contacts>10</max_contacts>
-        <pose>0 0 0 0 -0 0</pose>
-        <geometry>
-          <cylinder>
-            <radius>0.25</radius>
-            <length>0.1</length>
-          </cylinder>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         </geometry>
         <surface>
           <friction>
             <ode>
-<<<<<<< HEAD
               <mu>0</mu>
               <mu2>0</mu2>
-=======
-              <mu>0.5</mu>
-              <mu2>0.5</mu2>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
               <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
@@ -238,15 +166,9 @@
       </collision>
     </link>
     <link name='logger-hat'>
-<<<<<<< HEAD
-      <pose frame=''>-0 -0 0.1 0 -0 0</pose>
-      <inertial>
-        <pose frame=''>0 0 0.04 0 -0 0</pose>
-=======
       <pose>0 -0 0.1 0 -0 0</pose>
       <inertial>
         <pose>0 0 0.04 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>0.5</mass>
         <inertia>
           <ixx>0.000466667</ixx>
@@ -257,17 +179,11 @@
           <izz>0.0001</izz>
         </inertia>
       </inertial>
-      <gravity>1</gravity>
-      <velocity_decay/>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='logger-hat_visual'>
-<<<<<<< HEAD
-        <pose frame=''>0 0 0 0 -0 0</pose>
-=======
         <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <length>0.1</length>
@@ -287,11 +203,7 @@
       <collision name='logger-hat_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
-        <pose frame=''>0 0 0 0 -0 0</pose>
-=======
         <pose>0 0 0 0 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <radius>0.02</radius>
@@ -346,15 +258,9 @@
       </collision>
     </link>
     <link name='logger-left_wheel'>
-<<<<<<< HEAD
-      <pose frame=''>-0.125 -0.125 -0 0 -0 0</pose>
-      <inertial>
-        <pose frame=''>0 0 0 1.5708 -0 0</pose>
-=======
-      <pose>-0.125 -0.125 -0 0 -0 0</pose>
+      <pose>-0.125 -0.125 0 0 -0 0</pose>
       <inertial>
         <pose>0 0 0 1.5708 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>0.5</mass>
         <inertia>
           <ixx>0.00107917</ixx>
@@ -365,17 +271,11 @@
           <izz>0.002025</izz>
         </inertia>
       </inertial>
-      <gravity>1</gravity>
-      <velocity_decay/>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='logger-left_wheel_visual'>
-<<<<<<< HEAD
-        <pose frame=''>0 0 0 1.5708 -0 0</pose>
-=======
         <pose>0 0 0 1.5708 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <length>0.04</length>
@@ -395,11 +295,7 @@
       <collision name='logger-left_wheel_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
-        <pose frame=''>0 0 0 1.5708 -0 0</pose>
-=======
         <pose>0 0 0 1.5708 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <radius>0.09</radius>
@@ -454,15 +350,9 @@
       </collision>
     </link>
     <link name='logger-right_wheel'>
-<<<<<<< HEAD
-      <pose frame=''>-0.125 0.125 0 0 -0 0</pose>
-      <inertial>
-        <pose frame=''>0 0 0 1.5708 -0 0</pose>
-=======
-      <pose>-0.125 0.125 0 0 -0 0</pose>
+      <pose>-0.125 0.125 -0 0 -0 0</pose>
       <inertial>
         <pose>0 0 0 1.5708 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <mass>0.5</mass>
         <inertia>
           <ixx>0.00107917</ixx>
@@ -473,17 +363,11 @@
           <izz>0.002025</izz>
         </inertia>
       </inertial>
-      <gravity>1</gravity>
-      <velocity_decay/>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='logger-right_wheel_visual'>
-<<<<<<< HEAD
-        <pose frame=''>0 0 0 1.5708 -0 0</pose>
-=======
         <pose>0 0 0 1.5708 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <length>0.04</length>
@@ -503,11 +387,7 @@
       <collision name='logger-right_wheel_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-<<<<<<< HEAD
-        <pose frame=''>0 0 0 1.5708 -0 0</pose>
-=======
         <pose>0 0 0 1.5708 -0 0</pose>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <geometry>
           <cylinder>
             <radius>0.09</radius>
@@ -564,16 +444,9 @@
     <joint name='logger-chassis2hat' type='revolute'>
       <parent>logger-chassis</parent>
       <child>logger-hat</child>
-<<<<<<< HEAD
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 0 1</xyz>
-        <use_parent_model_frame>0</use_parent_model_frame>
-=======
       <pose>0 0 0 0 -0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
@@ -603,16 +476,9 @@
     <joint name='logger-chassis2left_wheel' type='revolute'>
       <parent>logger-chassis</parent>
       <child>logger-left_wheel</child>
-<<<<<<< HEAD
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 1 0</xyz>
-        <use_parent_model_frame>0</use_parent_model_frame>
-=======
       <pose>0 0 0 0 -0 0</pose>
       <axis>
         <xyz>0 1 0</xyz>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
@@ -642,16 +508,9 @@
     <joint name='logger-chassis2right_wheel' type='revolute'>
       <parent>logger-chassis</parent>
       <child>logger-right_wheel</child>
-<<<<<<< HEAD
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <axis>
-        <xyz>0 1 0</xyz>
-        <use_parent_model_frame>0</use_parent_model_frame>
-=======
       <pose>0 0 0 0 -0 0</pose>
       <axis>
         <xyz>0 1 0</xyz>
->>>>>>> 974bf60aff596f55c43fa84894f3b068c1492245
         <limit>
           <lower>-1e+16</lower>
           <upper>1e+16</upper>
